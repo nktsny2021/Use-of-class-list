@@ -39,4 +39,3 @@ rebtn.addEventListener( `click`, function reset(clsClean) {
   // if(end<=start){
   //   return start;
   // }
-  

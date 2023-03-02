@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>描画を変形させる</title>
+       <link rel="stylessheet" href="style.css"　type="text/css"> 
+       <script type="text/javascript">
+        //imageオブジェクトを生成して、画像ファイルを先読みしておく
+        var img01 = new Image();
+        img01.src = "./Firefox_40653.png";
+      </script>  
+　　</head>
+   <body>
+        <h1>JavaScriptで画像クリックにより描画を変形される処理を実行する方法</h1>
+        <function test(){
+          //描画のコンテキストの取得
+          var canvas = document.getElementById('sample');
+          if (canvas.getConext)) {
+              var context = canvas.getElementById('2d');
+        　 //元イメージの座標
+           context.drawImage(img01,50,50,100.50);
+          }
+          
+        }   
+     </body>
+</html>
