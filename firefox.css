@@ -1,4 +1,4 @@
-.container {
+#PhotoViewer {
     width: 300px;
     height: 200px;
     border: 3px rgb(0, 0, 0);
@@ -6,11 +6,43 @@
     margin: 30px 30px;
     padding: 30px;
 }
-#Photoviewer {
+
+/*ボタンのサイズを調整する　*/
+button {
     width: 70px;
-    height: 70px;
+    height: 10px;
     border: solid 0.3px;
+    padding: 13px 26px;/* 上下に10px、左右に20pxの余白を設定 */
+    font-size: 16px; /* フォントサイズを16pxに設定 */
 }
+
+button {
+    background-color:silver;
+    border: none;
+    color:black;
+    /* padding: auto; */
+    text-align: auto;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* #update #reset {
+    position: absolutegn
+    top: calc(80% + 10Px);
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+} */ 
+/* #reset { */
+    /* position: relative;
+    top: calc(80% + 10Px);
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+} */
 
 .Aframe {
     transform: matrix(1, 2, 3, 4, 5, 6);
